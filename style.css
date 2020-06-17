@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Metal Mania", cursive;
+}
+
+.container {
+  margin: 20px 50px;
+}
+
+.headline {
+  text-align: center;
+}
+
+.headline h1 {
+  font-size: 40px;
+}
+
+.headline h3 {
+  font-size: 25px;
+  opacity: 0.8;
+  margin: 20px 0;
+}
+
+.service_boxes {
+  display: flex;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.service_box {
+  padding-top: 40px;
+  padding-bottom: 70px;
+  margin: 0 20px;
+  box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.13);
+  transition: 0.6s;
+}
+
+.fas {
+  font-size: 25px;
+  color: black;
+}
+
+.fas {
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 2.5;
+}
+
+.fa-code {
+  background-color: rgb(245, 64, 69);
+}
+
+.fa-american-sign-language-interpreting {
+  background-color: rgb(34, 161, 240);
+}
+
+.fa-file-invoice {
+  background-color: rgb(47, 235, 169);
+}
+
+.service_box h2 {
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.heading_01 {
+  color: rgb(245, 64, 69);
+}
+
+.heading_02 {
+  color: rgb(34, 161, 240);
+}
+
+.heading_03 {
+  color: rgb(47, 235, 169);
+}
+
+.service_box p {
+  font-size: 18px;
+  line-height: 1.5;
+  opacity: 0.9;
+  width: 80%;
+  margin: auto;
+}
+
+.service-box_01:hover,
+.service-box_01:active {
+  box-shadow: -2px 2px 3px 1px rgb(245, 64, 69);
+}
+
+.service-box_02:hover,
+.service-box_02:active {
+  box-shadow: -2px 2px 3px 1px rgb(34, 161, 240);
+}
+
+.service-box_03:hover,
+.service-box_03:active {
+  box-shadow: -2px 2px 3px 1px rgb(47, 235, 169);
+}
